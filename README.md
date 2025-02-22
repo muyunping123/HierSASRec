@@ -9,3 +9,5 @@ This repository contains the code of the HierSASRec model for shared-account rec
 - [main.py](./main.py): It is the main body of the HierSASRec model for training and testing as the result.
 - [model.py](./model.py): The architecture of the HierSASRec model.
 - [data_utils.py](./model.py): It includes some processing process and the calculation of the evaluation metrics.
+- [utils.py](./utils.py): The utils for implementing the user disambiguation through time-aware DBSCAN.
+- [split.py](./split.py): The process of time-aware DBSCAN to realize user disambiguation.
